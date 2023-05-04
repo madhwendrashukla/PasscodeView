@@ -71,7 +71,7 @@
         android:layout_width="match_parent"
         android:layout_height="370dp"
         android:background="@drawable/lock_bg_white"
-        android:padding="48dp">
+        android:padding="148dp">
 
         <TextView
             android:id="@+id/number1"
