@@ -50,6 +50,7 @@ public class PasscodeView extends FrameLayout implements View.OnClickListener {
     private String correctInputTip = "Passcode is correct";
 
     private int passcodeLength = 4;
+     private int count = 0;
     private int correctStatusColor = 0xFF61C560; //0xFFFF0000
     private int wrongStatusColor = 0xFFF24055;
     private int normalStatusColor = 0xFFFFFFFF;
@@ -175,6 +176,10 @@ public class PasscodeView extends FrameLayout implements View.OnClickListener {
 
     @Override
     public void onClick(View view) {
+        count = count+1;
+        if(count == passcodeLength){
+            next();
+        }
         int number = (int) view.getTag();
         addChar(number);
     }
