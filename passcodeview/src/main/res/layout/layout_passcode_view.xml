@@ -77,28 +77,28 @@
             android:id="@+id/number1"
             style="@style/NumberInPasscode"
             android:layout_alignParentLeft="true"
-            android:textSize="22sp"
+            android:textSize="28sp"
             android:text="1"/>
 
         <TextView
             android:id="@+id/number2"
             style="@style/NumberInPasscode"
             android:layout_centerHorizontal="true"
-            android:textSize="22sp"
+            android:textSize="28sp"
             android:text="2"/>
 
         <TextView
             android:id="@+id/number3"
             style="@style/NumberInPasscode"
             android:layout_alignParentRight="true"
-            android:textSize="22sp"
+            android:textSize="28sp"
             android:text="3"/>
 
         <TextView
             android:id="@+id/number4"
             style="@style/NumberInPasscode"
             android:layout_alignParentLeft="true"
-            android:textSize="22sp"
+            android:textSize="28sp"
             android:layout_below="@id/number1"
             android:text="4"
             />
@@ -107,7 +107,7 @@
             android:id="@+id/number5"
             style="@style/NumberInPasscode"
             android:layout_below="@id/number1"
-            android:textSize="22sp"
+            android:textSize="28sp"
             android:layout_centerHorizontal="true"
             android:text="5"/>
 
@@ -115,7 +115,7 @@
             android:id="@+id/number6"
             style="@style/NumberInPasscode"
             android:layout_alignParentRight="true"
-             android:textSize="22sp"
+             android:textSize="28sp"
             android:layout_below="@id/number1"
             android:text="6"/>
 
@@ -123,7 +123,7 @@
             android:id="@+id/number7"
             style="@style/NumberInPasscode"
             android:layout_alignParentLeft="true"
-            android:textSize="22sp"
+            android:textSize="28sp"
             android:layout_below="@id/number4"
             android:text="7"/>
 
@@ -132,7 +132,7 @@
             style="@style/NumberInPasscode"
             android:layout_below="@id/number4"
             android:layout_centerHorizontal="true"
-            android:textSize="22sp"
+            android:textSize="28sp"
             android:text="8"/>
 
         <TextView
@@ -140,7 +140,7 @@
             style="@style/NumberInPasscode"
             android:layout_alignParentRight="true"
             android:layout_below="@id/number4"
-            android:textSize="22sp"
+            android:textSize="28sp"
             android:text="9"/>
 
         <ImageView
@@ -157,7 +157,7 @@
             style="@style/NumberInPasscode"
             android:layout_below="@id/number7"
             android:layout_centerHorizontal="true"
-            android:textSize="22sp"
+            android:textSize="28sp"
             android:text="0"/>
 
         <ImageView
