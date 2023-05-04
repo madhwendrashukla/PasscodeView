@@ -177,8 +177,8 @@ public class PasscodeView extends FrameLayout implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         count = count+1;
-        if(count == passcodeLength){
-            next();
+        if(count => passcodeLength){
+            numberOK.performClick();
         }
         int number = (int) view.getTag();
         addChar(number);
